@@ -14,7 +14,7 @@ export default {
     AppMain,
     Slider,
     AppFooter,
-    SearchBar
+    SearchBar,
   },
   data() {
     return {

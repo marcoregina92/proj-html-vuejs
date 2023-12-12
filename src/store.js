@@ -37,5 +37,24 @@ export const store = reactive({
     },
     clickSearch: false,
 
+    // Array che contiene le card del MainComponent1
+    contentCard: [
+        {
+            name: 'Speed Optimization',
+            icon: 'fas fa-gauge-high'
+        },
+        {
+            name: 'Cloud Solutions',
+            icon: 'fa-cloud'
+        },
+        {
+            name: 'Website Design',
+            icon: 'fa-tablet-screen-button'
+        },
+        {
+            name: 'Online Marketing',
+            icon: 'fa-stopwatch'
+        },
+    ]
 
 });

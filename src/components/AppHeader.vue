@@ -111,7 +111,6 @@ button {
     color: white;
     font-size: 13px;
     padding: 15px;
-    background: rgb(140, 225, 100);
     background: linear-gradient(90deg, rgba(140, 225, 100, 1) 0%, rgba(78, 221, 129, 1) 30%, rgba(16, 218, 160, 1) 100%);
     width: 150px;
     border-style: none;
