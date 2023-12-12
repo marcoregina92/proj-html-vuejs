@@ -52,7 +52,7 @@ export default {
 
             <div>
                 <button>PURCHASE</button>
-                <i class="fas fa-search search"></i>
+                <i class="fas fa-search pointer" @click="store.clickSearch = true"></i>
             </div>
         </div>
     </section>
@@ -117,6 +117,10 @@ button {
     border-style: none;
     border-radius: 50px;
     margin-right: 30px;
+    cursor: pointer;
+}
+
+.pointer {
     cursor: pointer;
 }
 </style>
