@@ -63,7 +63,13 @@ export default {
 .card:hover {
     background: linear-gradient(90deg, rgba(140, 225, 100, 1) 0%, rgba(78, 221, 129, 1) 30%, rgba(16, 218, 160, 1) 100%);
     border: 0;
+    color: white;
+}
 
+.card:hover i {
+    background: linear-gradient(90deg, rgba(140, 225, 100, 1) 0%, rgba(78, 221, 129, 1) 30%, rgba(16, 218, 160, 1) 100%);
+    border: 0;
+    color: white;
 }
 
 h2 {
@@ -76,6 +82,7 @@ i {
     font-size: 80px;
     color: #04d9a6;
 }
+
 
 .greenColor {
     color: #04d9a6;

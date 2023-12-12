@@ -66,7 +66,6 @@ export default {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    z-index: 10;
 }
 
 .socialIcon {
@@ -88,7 +87,6 @@ export default {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    z-index: 10;
 }
 
 

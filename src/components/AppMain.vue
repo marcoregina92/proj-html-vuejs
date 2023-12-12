@@ -1,11 +1,14 @@
 <script>
 import { store } from "../store.js" //state management
 import MainComponent1 from "./MainComponent1.vue"
+import MainComponent2 from "./MainComponent2.vue"
+
 
 export default {
     name: "AppMain",
     components: {
-        MainComponent1
+        MainComponent1,
+        MainComponent2
     },
     data() {
         return {
@@ -49,6 +52,7 @@ export default {
 
     </div>
     <MainComponent1 />
+    <MainComponent2 />
 </template>
 
 <style scoped>
