@@ -1,5 +1,5 @@
 <script>
-import { store } from "../store" //state management
+import { store } from "../store.js" //state management
 
 export default {
     name: "AppHeader",
@@ -41,15 +41,14 @@ export default {
             <img src="../assets/img/cropped-Group-39-2x.png" alt="">
 
             <div class="d-flex">
-                <ul class="menuNav m-0">
-                    <li><a href=""> HOME </a></li>
-                    <li><a href=""> ABOUT </a></li>
-                    <li><a href=""> SERVICES </a></li>
-                    <li><a href=""> SHOWCASE </a></li>
-                    <li><a href=""> BLOG </a></li>
-                    <li><a href=""> CONTACT </a></li>
+                <ul class="menuNav">
+                    <li v-for="item in store.navItem" class="me-4 text-uppercase ">
+                        <a href="#">{{ item }}</a>
+                    </li>
                 </ul>
             </div>
+
+
 
             <div>
                 <button>PURCHASE</button>
@@ -67,6 +66,7 @@ export default {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    z-index: 10;
 }
 
 .socialIcon {
@@ -88,6 +88,7 @@ export default {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 
 
