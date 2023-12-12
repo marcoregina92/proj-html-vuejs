@@ -35,6 +35,7 @@ export const store = reactive({
         email: 'info@yourdomain.com',
         telNumber: '+99 (0) 101 0000 888'
     },
-    clickSearch: false
+    clickSearch: false,
+
 
 });
