@@ -55,6 +55,55 @@ export const store = reactive({
             name: 'Online Marketing',
             icon: 'fa-stopwatch'
         },
+    ],
+
+    // Oggetto che contiene il contenuto del MainComponent3
+
+    designs: [
+        {
+            image: 'flowers.jpg',
+            name: 'The Basket of Flowers',
+            genre1: 'Branding',
+            genre2: 'Marketing'
+        },
+        {
+            image: 'ferris-wheel.jpg',
+            name: 'A Famous Ferris Wheel',
+            genre1: 'Marketing',
+        },
+        {
+            image: 'shoes.jpg',
+            name: 'Complementary Colors',
+            genre1: 'Branding',
+            genre2: 'Marketing'
+        },
+        {
+            image: 'office.jpg',
+            name: 'Business Prestige',
+            genre1: 'Branding',
+        },
+        {
+            image: 'origami.jpg',
+            name: 'Colorful Origami Boats',
+            genre1: 'Branding',
+            genre2: 'Marketing'
+        },
+        {
+            image: 'sofa.jpg',
+            name: 'Modern Couch',
+            genre1: 'Marketing',
+        },
+        {
+            image: 'hot-air-balloon.jpg',
+            name: 'Hot Air Baloons',
+            genre1: 'Branding',
+            genre2: 'Marketing'
+        },
+        {
+            image: 'orange.jpg',
+            name: 'Make Difference',
+            genre1: 'Branding',
+        },
     ]
 
 });
