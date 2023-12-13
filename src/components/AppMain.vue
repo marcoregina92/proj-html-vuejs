@@ -4,6 +4,8 @@ import MainComponent1 from "./MainComponent1.vue"
 import MainComponent2 from "./MainComponent2.vue"
 import MainComponent3 from "./MainComponent3.vue"
 import MainComponent4 from "./MainComponent4.vue"
+import MainComponent5 from "./MainComponent5.vue"
+
 
 
 
@@ -13,7 +15,8 @@ export default {
         MainComponent1,
         MainComponent2,
         MainComponent3,
-        MainComponent4
+        MainComponent4,
+        MainComponent5
     },
     data() {
         return {
@@ -60,6 +63,7 @@ export default {
     <MainComponent2 />
     <MainComponent3 />
     <MainComponent4 />
+    <MainComponent5 />
 </template>
 
 <style scoped>
