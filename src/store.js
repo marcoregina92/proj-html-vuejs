@@ -104,6 +104,7 @@ export const store = reactive({
             name: 'Make Difference',
             genre1: 'Branding',
         },
-    ]
+    ],
+
 
 });

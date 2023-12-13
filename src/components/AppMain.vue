@@ -3,6 +3,7 @@ import { store } from "../store.js" //state management
 import MainComponent1 from "./MainComponent1.vue"
 import MainComponent2 from "./MainComponent2.vue"
 import MainComponent3 from "./MainComponent3.vue"
+import MainComponent4 from "./MainComponent4.vue"
 
 
 
@@ -11,7 +12,8 @@ export default {
     components: {
         MainComponent1,
         MainComponent2,
-        MainComponent3
+        MainComponent3,
+        MainComponent4
     },
     data() {
         return {
@@ -57,6 +59,7 @@ export default {
     <MainComponent1 />
     <MainComponent2 />
     <MainComponent3 />
+    <MainComponent4 />
 </template>
 
 <style scoped>
