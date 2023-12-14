@@ -21,7 +21,7 @@ export default {
 
 <template>
     <div class="container-fluid">
-        <div class="row p-2">
+        <div class="row p-2 mt-5">
             <div class="col-3">
                 <img src="../assets/img/cropped-Group-39-2x.png" alt="">
                 <p class="mt-3">While the lovely valley teems with vapour around me, and the meridian sun strikes the upper

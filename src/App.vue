@@ -35,8 +35,8 @@ export default {
     <SearchBar v-if="store.clickSearch" />
   </header>
   <main>
+    <Slider />
     <AppMain />
-    <!-- <Slider /> -->
   </main>
 
   <footer>
