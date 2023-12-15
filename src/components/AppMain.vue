@@ -52,8 +52,6 @@ img {
 
 .title {
     margin-top: 100px;
-    /* display: flex;
-    align-items: center; */
 }
 
 .title h1 {

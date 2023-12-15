@@ -64,12 +64,16 @@ export default {
     background: linear-gradient(90deg, rgba(140, 225, 100, 1) 0%, rgba(78, 221, 129, 1) 30%, rgba(16, 218, 160, 1) 100%);
     border: 0;
     color: white;
+    transform: translateY(-20px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 500ms;
 }
 
 .card:hover i {
     background: linear-gradient(90deg, rgba(140, 225, 100, 1) 0%, rgba(78, 221, 129, 1) 30%, rgba(16, 218, 160, 1) 100%);
     border: 0;
     color: white;
+    transition: all 500ms;
 }
 
 h2 {
